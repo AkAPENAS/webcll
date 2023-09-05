@@ -1,0 +1,96 @@
+/* Estilos para telas maiores (desktop) */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Oculta a barra de rolagem horizontal no elemento body */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align:center ;
+    padding: 20px 0;
+}
+/* Estilos para a logo */
+/* Estilos para a logo */
+/* Estilos para a logo */
+/* Estilos para a logo */
+.logo {
+  width: 80px; /* Largura da logo */
+  height: 80px; /* Altura da logo */
+  background-image: url('imagens/logo.png'); /* Caminho para a imagem da logo */
+  background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
+  background-size: contain; /* Ajusta a imagem para caber dentro do elemento .logo */
+  margin-right: 10px; /* Margem à direita */
+  margin-left: 30px; /* Margem à esquerda */
+  float: left; /* Alinha à esquerda e coloca na mesma linha que o cabeçalho */
+}
+
+
+
+
+
+
+.container {
+    background-image: url(imagens/fundo.pc.jpeg); background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-size: cover; /* Faz a imagem cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem no elemento */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px; /* Reduz o padding para 10px para manter o espaçamento nos quadrados */
+}
+
+.box {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos para telas menores (dispositivos móveis) */
+@media (max-width: 768px) {
+    html, body {
+        overflow-x: hidden; /* Oculta a barra de rolagem horizontal no elemento html e body */
+    }
+
+    .container {
+        background-image: url(imagens/ronecll.jpeg); background-repeat: no-repeat; /* Impede a repetição da imagem */
+        background-size: cover; /* Faz a imagem cobrir todo o elemento */
+        background-position: center; /* Centraliza a imagem no elemento */
+        
+        flex-direction: column;
+        align-items: center; /* Centraliza o conteúdo verticalmente */
+    }
+
+    .column {
+        width: 100%;
+        margin-bottom: -20px; 
+        padding: 0; /* Remove o padding nas colunas para evitar o espaçamento extra */
+    }
+
+    .box {
+        margin: 20px 0; /* Adiciona margem para criar espaçamento entre os quadrados */
+    }
+     /* Estilos para a logo */
+
+    /* Estilos para tornar a logo responsiva */
+    .logo {
+        margin-left: 20px;
+        margin-top: 15px;
+        width: 65px; /* Ajuste a largura para dispositivos menores, se necessário */
+        height: 65px; /* Ajuste a altura para dispositivos menores, se necessário */
+    }
+}

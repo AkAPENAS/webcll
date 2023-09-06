@@ -67,7 +67,7 @@ footer {
     }
 
     .container {
-        background-image: url(imagens/ronecll.jpeg); background-repeat: no-repeat; /* Impede a repetição da imagem */
+        background-image: url(imagens/fundo.pc.jpeg); background-repeat: no-repeat; /* Impede a repetição da imagem */
         background-size: cover; /* Faz a imagem cobrir todo o elemento */
         background-position: center; /* Centraliza a imagem no elemento */
         
